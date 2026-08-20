@@ -1,0 +1,10 @@
+//Added gitignore for internal keys privacy
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+
+# OS / System Files
+.DS_Store
+Thumbs.db
