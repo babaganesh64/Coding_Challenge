@@ -7,7 +7,7 @@
    The Challenge: Write a loop with a counter to find and count the exact matches of the target variable 8080.
 */
 
-package Coding_Challenge.Arrays_Practice;
+package Coding_Challenge.Arrays_Practice.Basic_Arrays;
 
 public class ThePaletteMatch {
     public static void main(String[] args){
