@@ -17,10 +17,9 @@ public class SequentialIDCheck {
         int[] assetIDs = {1001, 1005, 1008, 1012, 1020};
         boolean isSorted = true;
         for(int i =0; i < assetIDs.length-1; i++){
-            if(assetIDs[i+1] > assetIDs[i]){
-                isSorted = true;
-            } else {
+            if(assetIDs[i] > assetIDs[i+1]){
                 isSorted = false;
+                break;
             }
         }
         System.out.println(isSorted);
