@@ -1,4 +1,4 @@
-/*  Statement: BondCraft Studios requires asset files to be imported in perfectly sequential order (smallest ID to largest). 
+/*  Statement: Marvel Studios requires asset files to be imported in perfectly sequential order (smallest ID to largest). 
     You need to write an algorithm to verify if an array of IDs is sorted correctly.
 
     Input array: int[] assetIDs = {1001, 1005, 1008, 1012, 1020};
