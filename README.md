@@ -1,6 +1,6 @@
 # Coding Challenges & Practice
 
-A centralized archive of my daily programming practice, focusing on software mechanics, core concepts, and architecture. 
+A centralized archive of my daily programming practice, focusing on software mechanics, core concepts, and architecture with Real World Problem Statements.
 
 ## Current Focus: Java
 I am currently using Java to master foundational algorithms, data structures, and problem-solving logic. The goal is to build strong muscle memory for standard programming patterns.
