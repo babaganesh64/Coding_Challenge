@@ -1,4 +1,4 @@
-/*  Statement: You are coding a custom two-column gallery layout for the BondCraft Studios website. 
+/*  Statement: You are coding a custom two-column gallery layout for Marvel Studios website. 
     You have an array of image ID numbers. The layout logic is simple: images at even index numbers (0, 2, 4...) go in the left column, 
     and odd indices go in the right column. You need to print out just the IDs destined for the left column.
     
