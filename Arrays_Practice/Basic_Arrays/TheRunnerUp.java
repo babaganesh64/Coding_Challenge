@@ -1,4 +1,4 @@
-/*  Statement: You are analyzing the engagement scores of your recent BondCraft Studios poster designs. 
+/*  Statement: You are analyzing the engagement scores of recent TheDawnOriginals poster designs. 
     You already know how to find the highest score, but now you need to find the second highest score to see which design is the true runner-up.
     
     Input array: int[] scores = {45, 90, 20, 75, 100, 85};
@@ -17,10 +17,13 @@ public class TheRunnerUp {
         for(int i=0; i<scores.length; i++){
             if(scores[i] > highest){
                 highest = scores[i];
-            } if(scores[i] < highest && scores[i] > secondHighest){
-                secondHighest = scores[i];
             }
         }
-        System.out.println(highest + " "+secondHighest);
+        for(int j=0; j<scores.length; j++){
+            if(scores[j] > secondHighest && scores[j] < highest){
+                secondHighest = scores[j];
+            }
+        }
+        System.out.println(secondHighest);
     }
 }
