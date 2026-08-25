@@ -15,9 +15,10 @@ public class TheEngagementSpike {
         int[] views = {50, 120, 80, 90, 150, 100};
         int count = 0;
         for(int i=1; i<views.length-1; i++){
-            if(i>1){
-                count++;
+            if(views[i] > views[i-1] && views[i] > views[i+1]){
+                count = count+1;
             }
         }
+        System.out.println(count);
     }
 }
