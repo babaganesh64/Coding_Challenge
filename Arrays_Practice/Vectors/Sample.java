@@ -12,5 +12,7 @@ class Sample{
         v.remove(1);
         v.remove("Kiwi");
         System.out.println("Values of Vector after removing: "+v);
+        System.out.println("Size of Vector: "+v.size());
+        System.out.println("Capacity of the Vector: "+v.capacity());
     }
 }
