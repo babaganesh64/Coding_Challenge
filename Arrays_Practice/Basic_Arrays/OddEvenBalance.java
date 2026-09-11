@@ -8,7 +8,7 @@
     The Challenge: Create evenTotal and oddTotal. Inside your loop, check if the value (not the index) is even 
     using modulo (if (brightness[i] % 2 == 0)). Add to the correct total, and then compare the two totals outside the loop. */
 
-package Coding_Challenge.Arrays_Practice.Basic_Arrays;
+package Arrays_Practice.Basic_Arrays;
 
 public class OddEvenBalance {
     public static void main(String[] args){

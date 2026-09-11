@@ -10,7 +10,7 @@
     Crucial Hint: If you loop all the way to the end, checking i + 1 will cause an ArrayIndexOutOfBoundsException. 
     Your loop condition needs to stop one step early: i < assetIDs.length - 1. */
 
-package Coding_Challenge.Arrays_Practice.Basic_Arrays;
+package Arrays_Practice.Basic_Arrays;
 
 public class SequentialIDCheck {
     public static void main(String[] args){

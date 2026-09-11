@@ -7,7 +7,7 @@
     The Challenge: Create a total variable starting at 0. Loop through the array and add every single element to your total.
 */
 
-package Coding_Challenge.Arrays_Practice.Basic_Arrays;
+package Arrays_Practice.Basic_Arrays;
 
 public class SinisterNightSpawns {
     public static void main(String[] args){

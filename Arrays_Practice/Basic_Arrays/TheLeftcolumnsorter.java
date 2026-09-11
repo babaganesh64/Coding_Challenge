@@ -11,7 +11,7 @@
     The Goal: There are two ways to solve this. You can either use a standard loop and an if statement to check if the index i is even (i % 2 == 0), 
     OR you can change the way your loop increments so it skips by 2 every time instead of by 1. Try to figure out either way! */
 
-package Coding_Challenge.Arrays_Practice.Basic_Arrays;
+package Arrays_Practice.Basic_Arrays;
 
 public class TheLeftcolumnsorter {
     public static void main(String[] args){

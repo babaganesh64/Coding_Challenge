@@ -8,7 +8,7 @@
     As you loop through the array, if you find a number bigger than highest, you must do a hand-off: 
     your old highest drops down to become your new secondHighest, and the new number becomes the highest. */
 
-package Coding_Challenge.Arrays_Practice.Basic_Arrays;
+package Arrays_Practice.Basic_Arrays;
 
 public class TheRunnerUp {
     public static void main(String[] args){

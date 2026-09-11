@@ -9,7 +9,7 @@
     If the value is 1, increment currentStreak and immediately check if it's bigger than maxStreak. 
     If the value is 0, reset currentStreak back to 0. */
 
-package Coding_Challenge.Arrays_Practice.Basic_Arrays;
+package Arrays_Practice.Basic_Arrays;
 
 public class TheLongestStreak {
     public static void main(String[] args){
