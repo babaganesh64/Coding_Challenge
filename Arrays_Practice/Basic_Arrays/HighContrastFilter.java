@@ -7,7 +7,7 @@
     The Challenge: Create a counter variable. Loop through the array, 
     check if the value is > 50, and if so, add it to your total. */
 
-package Coding_Challenge.Arrays_Practice.Basic_Arrays;
+package Arrays_Practice.Basic_Arrays;
 
 public class HighContrastFilter {
     public static void main(String[] args){

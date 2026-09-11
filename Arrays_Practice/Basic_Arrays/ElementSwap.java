@@ -8,7 +8,7 @@
     The Challenge: Do not use a loop. Use a temporary variable to swap layers[0] with layers[layers.length - 1]. 
     Then, print the first and last elements to prove it worked. */
 
-package Coding_Challenge.Arrays_Practice.Basic_Arrays;
+package Arrays_Practice.Basic_Arrays;
 
 public class ElementSwap {
     public static void main(String[] args){

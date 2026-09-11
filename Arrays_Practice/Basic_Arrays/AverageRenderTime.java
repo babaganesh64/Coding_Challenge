@@ -9,7 +9,7 @@
     Hint: Because you are dealing with integers, Java will chop off the decimal and just say 13. 
     To get 13.8, you need to make either the sum or the length a double before you divide! */
 
-package Coding_Challenge.Arrays_Practice.Basic_Arrays;
+package Arrays_Practice.Basic_Arrays;
 
 public class AverageRenderTime {
     public static void main(String[] args){

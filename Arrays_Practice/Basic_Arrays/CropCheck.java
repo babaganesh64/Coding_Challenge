@@ -10,7 +10,7 @@
     The Challenge: Loop through the array. Use an if statement to check if the value does not equal (!=) 1350. 
     If it doesn't, print it. */
 
-package Coding_Challenge.Arrays_Practice.Basic_Arrays;
+package Arrays_Practice.Basic_Arrays;
 
 public class CropCheck {
     public static void main(String[] args){

@@ -9,7 +9,7 @@
     If you find a layer where the opacity is exactly 0, change your boolean to true and break the loop immediately. 
     Print the boolean at the end. */
 
-package Coding_Challenge.Arrays_Practice.Basic_Arrays;
+package Arrays_Practice.Basic_Arrays;
 
 public class InvisibleLayerCheck {
     public static void main(String[] args){

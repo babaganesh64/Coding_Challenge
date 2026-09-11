@@ -8,7 +8,7 @@
     Inside the loop, check if the current day's views (dailyViews[i]) is greater than yesterday's views (dailyViews[i - 1]). 
     If it is, add 1 to your counter. */
 
-package Coding_Challenge.Arrays_Practice.Basic_Arrays;
+package Arrays_Practice.Basic_Arrays;
 
 public class MilestoneTracker {
     public static void main(String[] args){

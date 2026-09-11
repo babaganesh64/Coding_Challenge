@@ -7,7 +7,7 @@
     The Challenge: Loop through the array and modify it in-place. Set grayscale[i] equal to 255 - grayscale[i]. 
     Print the array afterward to verify.*/
 
-package Coding_Challenge.Arrays_Practice.Basic_Arrays;
+package Arrays_Practice.Basic_Arrays;
 
 public class NegativeFilmEffect {
     public static void main(String[] args){
