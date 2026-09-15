@@ -24,12 +24,12 @@ public class TheTelemetryFilter {
 }
 
 
-/*Alternative Approachs
+/*Alternative Approaches
 By using For-each Loop
 
     for(int coming : incoming){
         if(coming%2==0){
-            v.add(coming)
+            v.add(coming);
         }
     }
 
