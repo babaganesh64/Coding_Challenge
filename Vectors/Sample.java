@@ -1,4 +1,4 @@
-package Arrays_Practice.Vectors;
+package Vectors;
 
 import java.util.Vector;
 class Sample{

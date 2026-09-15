@@ -7,7 +7,7 @@
     The Challenge: Instantiate a Vector<Integer> v = new Vector<>();. Loop through the primitive incoming array. 
     When you find an even number, expand the Vector and store the value dynamically. */
 
-package Arrays_Practice.Vectors;
+package Vectors;
 import java.util.Vector;
 
 public class TheTelemetryFilter {
