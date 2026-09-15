@@ -9,6 +9,7 @@ I am currently using Java to master foundational algorithms, data structures, an
 The repository is organized by core programming concepts to keep everything scalable and easy to navigate as the complexity grows.
 
 * **`Arrays_Practice/`** - Array manipulation, traversal, and searching algorithms (e.g., standardizing branding color codes).
+* **`Vectors`** - Basic Vector programs by present
 * *(More concepts like Sorting, Searching, and lower-level logic coming soon...)*
 
 ## Problem Format
