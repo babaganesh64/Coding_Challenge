@@ -22,3 +22,15 @@ public class TheTelemetryFilter {
         System.out.println(v);
     }
 }
+
+
+/*Alternative Approachs
+By using For-each Loop
+
+    for(int coming : incoming){
+        if(coming%2==0){
+            v.add(coming)
+        }
+    }
+
+*/
