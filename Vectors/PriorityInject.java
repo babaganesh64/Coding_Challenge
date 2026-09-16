@@ -15,6 +15,23 @@ public class PriorityInject {
     public static void main(String[] args){
         int[] ids = {100, 200, 300};
         Vector<Integer> v = new Vector<>();
+        for(int id : ids){
+            v.add(id);
+        }
         v.add(1, 999);
+        for(int i=0; i<v.size(); i++){
+            System.out.print(v.get(i)+" ");
+        }
     }
 }
+
+//wrote logic as per the statement
+
+//now the alternative approach to print exactly the same
+
+/*  for(int id: ids){
+        v.add(i);
+    }
+    v.add(1, 999);
+    System.out.println(v);
+*/
