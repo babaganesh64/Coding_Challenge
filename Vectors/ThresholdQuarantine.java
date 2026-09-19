@@ -13,7 +13,20 @@ package Vectors;
 import java.util.Vector;
 
 public class ThresholdQuarantine {
-    int[] primaryarray = {45, 120, 88, 205, 15, 99, 101};
-    Vector<Integer> Primary = new Vector<>();
+    public static void main(String[] args){
+        int[] primaryarray = {45, 120, 88, 205, 15, 99, 101};
+        Vector<Integer> Primary = new Vector<>();
+        Vector<Integer> Quarantine = new Vector<>();
+
+        for(int i=0; i<primaryarray.length; i++){
+            if(primaryarray[i]>100){
+                Quarantine.add(primaryarray[i]);
+            } else {
+                Primary.add(primaryarray[i]);
+            }
+        }
+        System.out.println("Primary Vector State "+Primary);
+        System.out.println("Quarantine Vector State "+Quarantine);
+    }
 
 }
