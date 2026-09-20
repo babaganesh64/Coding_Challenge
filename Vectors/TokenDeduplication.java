@@ -19,10 +19,11 @@ public class TokenDeduplication {
         for(int i=0; i<inputs.length; i++){
             v.add(inputs[i]);
         }
-        for(int i=v.firstElement(); i<=v.size(); i++){
-            int i2 = i+1;
-            if(v.elementAt(i) == v.elementAt(i2)){
+        for(int i=0; i<v.size()-1;){
+            if(v.elementAt(i).equals(v.elementAt(i+1))){
                 v.remove(i);
+            } else{
+                i++;
             }
         }
         System.out.println(v);
