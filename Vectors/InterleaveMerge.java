@@ -11,18 +11,15 @@
 package Vectors;
 import java.io.IOException;
 import java.util.Vector;
+import java.util.List;
 public class InterleaveMerge {
     public static void main(String[] args) throws IOException{
-        Vector<Integer> StreamA = new Vector<>();
-        int[] Stream = {10, 20, 30};
+        Vector<Integer> StreamA = new Vector<>(List.of(10, 20, 30));
         int[] StreamB = {15, 25};
-        for(int i=0; i<StreamA.length; i++){
-            int index = i;
+        for(int i=0; i<StreamB.length; i++){
+            int index = (i*2)+1;
             StreamA.add(index, StreamB[i]);
         }
-        for(int i=0; i<StreamB.length; i++){
-            StreamA.add(i, StreamB[i]);
-        }
-        System.out.println("Vector State after injecting frame IDs: "+ StreamA);
+        System.out.println("StreamA state after injecting values: "+StreamA);
     }
 }
