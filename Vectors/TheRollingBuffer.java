@@ -1,4 +1,6 @@
-/*  Scenario: A server metrics dashboard keeps a rolling log of recent connection ping times. 
+/*  Learning Concept with this problem : Capacity Management of a Vector
+
+    Scenario: A server metrics dashboard keeps a rolling log of recent connection ping times. 
     The UI can only display a maximum of 5 entries. When a new ping comes in, if the Vector is already at capacity (5), 
     your algorithm must drop the oldest entry (the first one) before appending the new entry to the end.
     
@@ -12,6 +14,6 @@ package Vectors;
 
 public class TheRollingBuffer {
     public static void main(String[] args){
-        
+
     }
 }
