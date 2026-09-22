@@ -11,9 +11,20 @@
     Constraint: You must loop through the newPings array. For each ping, enforce the capacity limit dynamically using .size(), .remove(), and .add(). */
 
 package Vectors;
+import java.util.Vector;
+import java.util.List;
 
 public class TheRollingBuffer {
     public static void main(String[] args){
-
+        int size = 5;
+        Vector<Integer> v = new Vector<>(List.of(42, 45, 48, 51, 49));
+        int[] newPings = {55, 60};
+        for(int i=0; i<newPings.length; i++){
+            if(v.size() == size){
+                v.remove(0);
+                v.add(newPings[i]);
+            }
+        }
+        System.out.println(v);
     }
 }
