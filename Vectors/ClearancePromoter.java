@@ -11,9 +11,17 @@
     Architectural Warning: Think very carefully about the index-shifting trap when you inject a duplicate. If you inject 299 right next to the original 299, and then your loop naturally marches forward i++, what value will it evaluate next? */
 
 package Vectors;
-
+import java.util.Vector;
+import java.util.List;
 public class ClearancePromoter {
     public static void main(String[] args){
-
+        Vector<Integer> v = new Vector<>(List.of(150, 299, 350, 499, 500));
+        for(int i=0; i<v.size(); i++){
+            int last = (v.elementAt(i) % 100);
+            if(v.get(i).equals(last)){
+                v.add(i+1, v.elementAt(i));
+            }
+        }
+        System.out.println(v);
     }
 }
