@@ -18,8 +18,9 @@ public class ClearancePromoter {
         Vector<Integer> v = new Vector<>(List.of(150, 299, 350, 499, 500));
         for(int i=0; i<v.size(); i++){
             int last = (v.elementAt(i) % 100);
-            if(v.get(i).equals(last)){
-                v.add(i+1, v.elementAt(i));
+            if (last == 99) {
+                v.add(i + 1, v.elementAt(i));
+                i++; 
             }
         }
         System.out.println(v);
