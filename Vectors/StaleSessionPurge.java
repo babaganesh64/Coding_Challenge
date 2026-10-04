@@ -11,7 +11,16 @@
     negative number is found. */
 
 package Vectors;
-
+import java.util.Vector;
+import java.util.List;
 public class StaleSessionPurge {
-    
+    public static void main(String[] args){
+        Vector<Integer> v = new Vector<>(List.of(15, -1, -2, 44, 88, -9, 100));
+        for(int i=v.size(); i>=v.elementAt(0); i--){
+            if(v.elementAt(i)<0){
+                v.remove(i);
+            }
+        }
+        System.out.println(v);
+    }
 }
