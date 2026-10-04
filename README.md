@@ -6,7 +6,7 @@ A centralized archive of my daily programming practice, focusing on software mec
 I am currently using Java to master foundational algorithms, data structures, and problem-solving logic. The goal is to build strong muscle memory for standard programming patterns while deeply understanding how memory works under the hood (JVM, Stack vs. Heap).
 
 ## How I Work
-* **No Zero Days:** I am committed to daily practice. Even if it's just refactoring code, adding comments, or solving one logic puzzle, I push something every day to maintain momentum.
+* **Regular Practice:** I am committed to regular practice. Even if it's just refactoring code, adding comments, or solving one logic puzzle, I want to push something every day to maintain momentum.
 * **Real Workflows:** I use branches and Pull Requests for my practice sessions to build enterprise-grade version control habits.
 * **Progressive Scaffolding:** I learn by starting with guided logic problems and moving toward pure, hintless engineering challenges.
 
