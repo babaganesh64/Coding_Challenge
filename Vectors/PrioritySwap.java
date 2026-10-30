@@ -14,5 +14,15 @@ import java.util.List;
 public class PrioritySwap {
     public static void main(String[] args){
         Vector<Integer> v = new Vector<Integer>(List.of(10, 999, 20, 30, 999, 40));
+        for(int i=1; i<v.size(); i++){
+            if(v.elementAt(i)==999){
+                int p = v.elementAt(i);
+                int q = v.elementAt(i+1);
+                int temp = p;
+                p = q;
+                q = temp;
+            }
+        }
+        System.out.println(v);
     }
 }
