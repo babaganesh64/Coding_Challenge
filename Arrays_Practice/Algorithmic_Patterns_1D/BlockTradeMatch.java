@@ -14,6 +14,7 @@ package Arrays_Practice.Algorithmic_Patterns_1D;
 
 public class BlockTradeMatch {
     public static void main(String[] args){
-        
+        int[] orders = {10, 20, 35, 50, 75, 80};
+        int target = 70;
     }
 }
