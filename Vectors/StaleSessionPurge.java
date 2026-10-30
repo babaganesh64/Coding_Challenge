@@ -25,6 +25,11 @@ public class StaleSessionPurge {
                     v.remove(element);
                 }
             }
+            for(int element : v){
+                if(element<0){
+                    v.remove(element);
+                }
+            }
         }
         System.out.println(v);
     }
