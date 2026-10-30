@@ -19,9 +19,11 @@ public class StaleSessionPurge {
         for(int i=v.size(); i>=v.elementAt(0); i--){
             if(v.elementAt(i)<0){
                 v.remove(i);
-        for(int element : v){
-            if(element<0){
-                v.remove(element);
+            }
+            for(int element : v){
+                if(element<0){
+                    v.remove(element);
+                }
             }
         }
         System.out.println(v);
