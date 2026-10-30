@@ -16,14 +16,9 @@ import java.util.List;
 public class StaleSessionPurge {
     public static void main(String[] args){
         Vector<Integer> v = new Vector<>(List.of(15, -1, -2, 44, 88, -9, 100));
-        for(int element : v){
-            if(element<0){
-                v.remove(element);
-            }
-            for(int element : v){
-                if(element<0){
-                    v.remove(element);
-                }
+        for(int i=v.size()-1; i>=0; --i){
+            if(v.elementAt(i)<0){
+                v.remove(i);
             }
             for(int element : v){
                 if(element<0){
