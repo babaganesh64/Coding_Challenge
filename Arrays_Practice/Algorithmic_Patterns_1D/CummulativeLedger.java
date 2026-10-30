@@ -11,6 +11,12 @@
 package Arrays_Practice.Algorithmic_Patterns_1D;
 class CummulativeLedger{
     public static void main(String[] args){
-
+        int[] transactions = {10, -5, 20, -10, 5};
+        for(int i=1; i<transactions.length; i++){
+            transactions[i] = transactions[i]+transactions[i-1];
+        }
+        for(int transaction : transactions){
+            System.out.print(transaction+" ");
+        }
     }
 }
