@@ -20,3 +20,7 @@ class CummulativeLedger{
         }
     }
 }
+
+
+
+//Prefix Sum
