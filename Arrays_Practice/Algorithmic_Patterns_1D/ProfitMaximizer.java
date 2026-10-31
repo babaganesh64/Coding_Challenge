@@ -15,6 +15,17 @@ package Arrays_Practice.Algorithmic_Patterns_1D;
 
 public class ProfitMaximizer {
     public static void main(String[] args){
-        
+        int[] deltas = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        int highestsum = 0;
+        int sum = 0;
+        for(int delta : deltas){
+            sum = sum+delta;
+            if(sum>highestsum){
+                highestsum = sum;
+            } if(sum<0){
+                sum = 0;
+            }
+        }
+        System.out.println(highestsum);
     }    
 }
