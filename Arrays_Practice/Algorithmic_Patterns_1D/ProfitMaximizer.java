@@ -1,5 +1,4 @@
-/*  Kadane's Algorithm
-    Scenario: An algorithmic trading bot has a chronological array of a stock's minute-by-minute price 
+/*  Scenario: An algorithmic trading bot has a chronological array of a stock's minute-by-minute price 
     changes (deltas). You must find the maximum possible profit the bot could have made in any single 
     continuous window of time.
 
@@ -29,3 +28,8 @@ public class ProfitMaximizer {
         System.out.println(highestsum);
     }    
 }
+
+
+
+
+//Kadane's Algorithm
