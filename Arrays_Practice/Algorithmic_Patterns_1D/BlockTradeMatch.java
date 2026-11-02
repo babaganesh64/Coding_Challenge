@@ -16,5 +16,21 @@ public class BlockTradeMatch {
     public static void main(String[] args){
         int[] orders = {10, 20, 35, 50, 75, 80};
         int target = 70;
+        int left = 0;
+        int right = orders.length-1;
+        while(orders[left]<orders[right]){
+            int currentsum = orders[left]+orders[right];
+            if(currentsum == target){
+                System.out.println(orders[left]+" and "+orders[right]);
+                break;
+            } else if(currentsum > target){
+                right--;
+            } else{
+                left++;
+            }
+        }
     }
 }
+
+
+//Two pointers
