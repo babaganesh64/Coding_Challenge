@@ -9,5 +9,21 @@
 package Arrays_Practice.Algorithmic_Patterns_1D;
 
 public class PacketLossDetector {
-    
+    public static void main(String[] args){
+        int[] packets = {3, 0, 1, 4, 6, 2};
+        int totalsum = 0;
+        int n = packets.length;
+
+        //collecting total sum of packets
+        for(int i=0; i<packets.length; i++){
+            totalsum = totalsum + packets[i];
+        }
+
+        //sum of sequence
+        int sequence = (n*(n+1)/2);
+        System.out.println(sequence - totalsum);
+    }
 }
+
+
+//Mathematical Deduction
